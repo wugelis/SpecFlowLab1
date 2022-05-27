@@ -22,7 +22,7 @@ namespace ConsoleLogAnalyzerLab1
             {
                 Console.WriteLine("No arugments input!!!.");
             }
-            Console.ReadLine();
+            //Console.ReadLine();
         }
     }
 }

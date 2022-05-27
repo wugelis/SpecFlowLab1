@@ -17,7 +17,8 @@ namespace Integrated_ConsoleLogAnalyzer
             {
                 Arguments = "20190527_Error.log",
                 UseShellExecute = false,
-                RedirectStandardOutput = true
+                RedirectStandardOutput = true,
+                WorkingDirectory = Path.GetDirectoryName(targetExecutable)
             };
 
             Process p = Process.Start(startInfo);
